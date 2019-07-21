@@ -52,7 +52,7 @@ public class HomePageTest {
     	homePage.womenclick();
     	int act1=homePage.womencount();
     	int exp1=homePage.getwomencount();
-    	Assert.assertTrue(act1==exp1,"count mismatch");
+    	Assert.assertTrue(act1==exp1,"count mis match");
     	
     	homePage.dressclick();
     	int act2=homePage.dresscount();
